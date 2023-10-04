@@ -20,19 +20,10 @@
  * Listen here: https://youtu.be/X0MDALpV29s
  *
  */
- 
- $(document).ready(function(){
-    // $('#my_audio').trigger('click');
+
+ $(document).on("click", function(){
     document.getElementById("my_audio").play();
-  });
-
-//  $(document).on("click", function(){
-//     document.getElementById("my_audio").play();
-// });
-
-// function myFunction() {
-//     var x = document.getElementById("my_audio").autoplay;
-//   }
+});
 
 
 // Set the date we're counting down to
