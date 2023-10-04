@@ -1,10 +1,10 @@
 /**
  * @author Vinit Shahdeo <vinitshahdeo@gmail.com>
  */
-(function ($) {
-    "use strict";
-      $('.sakura-falling').sakura();
-})(jQuery);
+// (function ($) {
+//     "use strict";
+//       $('.sakura-falling').sakura();
+// })(jQuery);
 
 /**
  *
@@ -21,15 +21,22 @@
  *
  */
  
-
- $(document).on('click', function(){
+ $(document).ready(function(){
+    // $('#my_audio').trigger('click');
     document.getElementById("my_audio").play();
-});
- 
+  });
+
+//  $(document).on("click", function(){
+//     document.getElementById("my_audio").play();
+// });
+
+// function myFunction() {
+//     var x = document.getElementById("my_audio").autoplay;
+//   }
 
 
 // Set the date we're counting down to
-var countDownDate = new Date("Aug 26, 2023 00:00:00").getTime();
+var countDownDate = new Date("Oct 21, 2023 00:00:00").getTime();
 
 // Update the count down every 1 second
 var x = setInterval(function() {
